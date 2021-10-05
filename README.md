@@ -4,7 +4,7 @@
 `git clone <REPO_URI> `
 
 ## Crie uma branch e  acesse a brach logo em seguida
-`git checkout -b <BRANCH_NAME>RichardsonTreinamento`
+`git checkout -b <BRANCH_NAME> e.g. RichardsonTreinamento`
 
 ## Configue o token para autenticação  para evitar erro na instalação das depedências
 `composer config --global github-oauth.github.com <TOKEN>`
@@ -16,12 +16,12 @@
 `npm install`
 
 ## Crie o esquema no banco de dados
-`chamados_ifpe`
+`schema_name` e.g.`chamados_ifpe`
 
 ## Migre o esquema e alimentas com registros
 `php artisan migrate:fresh -seed`
 
-## Inicialize o servidro
+## Inicialize o servidor
 `php artisan serve`
 
 ## Acesse o servico no navegador
