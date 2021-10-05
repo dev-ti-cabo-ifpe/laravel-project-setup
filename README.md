@@ -1,4 +1,4 @@
-# Steps setup Laravel project
+# Laravel Project Setup
 
 ## Clone o repositorio do sistema
 `git clone <REPO_URI> `
