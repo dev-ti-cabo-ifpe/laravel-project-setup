@@ -19,7 +19,7 @@
 `schema_name` e.g.`chamados_ifpe`
 
 ## Migre o esquema e alimentas com registros
-`php artisan migrate:fresh -seed`
+`php artisan migrate:fresh --seed`
 
 ## Inicialize o servidor
 `php artisan serve`
